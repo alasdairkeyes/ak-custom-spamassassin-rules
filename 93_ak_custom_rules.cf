@@ -64,6 +64,11 @@ rawbody 	AK_SEX_BODY /\b(0rgasm|f[^aeiu]ck|sxx|c0ck|c\*m|pu\$\$y|h00k|1ike|b00b|
 score 		AK_SEX_BODY 5.0
 
 
+describe    AK_SEX_SUBJECT  Common sex related subject
+header      AK_SEX_SUBJECT  Subject =~ /\b(0rgasm|f[^aeiu]ck|sxx|c0ck|c\*m|pu\$\$y|h00k|1ike|b00b|p1cs|0ral|deepthr0at|bl[^o]wj[^o]b|hardc[^o]re|\@nal|\$ex|wh0re|cock|pussy)\b/i
+score       AK_SEX_SUBJECT  5.0
+
+
 describe 	AK_STEP1_REGISTRATION Contains step1 of your registration process
 rawbody 	AK_STEP1_REGISTRATION /Step 1 of your registration process/i
 score 		AK_STEP1_REGISTRATION 5.0
