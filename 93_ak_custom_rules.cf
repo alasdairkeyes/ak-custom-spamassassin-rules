@@ -30,8 +30,8 @@ score       AK_REMITTANCE_ADVICE    8.0
 
 
 describe    AK_SPAM_JOB_SUBJECT     Subject talks of business or job cooperation
-header      AK_SPAM_SUBJECT         Subject =~ /(beneficial|cooperation|flexible)/i
-score       AK_SPAM_SUBJECT         4.0
+header      AK_SPAM_JOB_SUBJECT     Subject =~ /(beneficial|cooperation|flexible)/i
+score       AK_SPAM_JOB_SUBJECT     4.0
 
 
 describe    AK_COMMON_SPAM1     Common HTML color used in spam from particular spammer
