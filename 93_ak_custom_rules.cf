@@ -55,7 +55,7 @@ score       AK_PHP_SCRIPT_2     1.0
 
 
 describe    AK_SWOOSH_RETURN_PATH   Return path from a known domain related to swooosh marketing
-header      AK_SWOOOSH_RETURN_PATH  Return-Path =~ /(safesending.com|ipurus.co.uk|ipurus.com)/i
+header      AK_SWOOSH_RETURN_PATH   Return-Path =~ /(safesending.com|ipurus.co.uk|ipurus.com)/i
 score       AK_SWOOSH_RETURN_PATH   3.0
 
 
