@@ -24,6 +24,7 @@ See license file
 ## Changelog
 
 * 2016-11-26 :: 0.01 :: First release
+* 2016-11-26 :: 0.02 :: Added rules and fixes
 
 ## Author
 
