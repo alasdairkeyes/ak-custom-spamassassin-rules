@@ -87,3 +87,8 @@ score       AK_INSURANCE_SUBJECT    4.0
 describe    AK_INSURANCE_FROM       Life insurance From
 header      AK_INSURANCE_FROM       From =~ /(your\s*life|health)\s+cover/i
 score       AK_INSURANCE_FROM       4.0
+
+
+describe    AK_SPACE_START_FROM     From header contains a space at the start
+header      AK_SPACE_START_FROM     From =~ /^\s/
+score       AK_SPACE_START_FROM     2.0
