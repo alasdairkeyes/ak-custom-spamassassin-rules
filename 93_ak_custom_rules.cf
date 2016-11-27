@@ -90,5 +90,5 @@ score       AK_INSURANCE_FROM       4.0
 
 
 describe    AK_SPACE_START_FROM     From header contains a space at the start
-header      AK_SPACE_START_FROM     From =~ /^\s/
+header      AK_SPACE_START_FROM     From =~ /^"?\s/
 score       AK_SPACE_START_FROM     2.0
