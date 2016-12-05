@@ -75,7 +75,7 @@ score       AK_STEP1_REGISTRATION 5.0
 
 
 describe    AK_KEYMAN_FROM  Keyman insurance
-header      AK_KEYMAN_FROM  From =~ /Key(man) insurance/i
+header      AK_KEYMAN_FROM  From =~ /Key(man)? insurance/i
 score       AK_KEYMAN_FROM  5.0
 
 
