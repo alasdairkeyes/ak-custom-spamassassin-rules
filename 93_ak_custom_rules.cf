@@ -79,6 +79,11 @@ header      AK_KEYMAN_FROM  From =~ /Key(man)? insurance/i
 score       AK_KEYMAN_FROM  5.0
 
 
+describe    AK_RAYHAY_FROM  Raymond Hayes
+header      AK_RAYHAY_FROM  From =~ /"Raymond Hayes" <hayray9@/i
+score       AK_RAYHAY_FROM  5.0
+
+
 describe    AK_INSURANCE_SUBJECT    Life insurance Subject
 header      AK_INSURANCE_SUBJECT    Subject =~ /(your\s*life|health)\s+cover/i
 score       AK_INSURANCE_SUBJECT    4.0
