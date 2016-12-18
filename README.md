@@ -28,9 +28,10 @@ Apache License 2.0 - Same as SpamAssassin. See license file.
 
 ## Changelog
 
-* 2016-11-26 :: 0.01 :: First release
-* 2016-11-26 :: 0.02 :: Added rules and fixes
+* 2016-12-18 :: 0.04 :: More rules
 * 2016-11-27 :: 0.03 :: Add more rules
+* 2016-11-26 :: 0.02 :: Added rules and fixes
+* 2016-11-26 :: 0.01 :: First release
 
 ## Author
 
