@@ -84,14 +84,9 @@ header      AK_RAYHAY_FROM  From =~ /"Raymond Hayes" <hayray9@/i
 score       AK_RAYHAY_FROM  5.0
 
 
-describe    AK_INSURANCE_SUBJECT    Life insurance Subject
-header      AK_INSURANCE_SUBJECT    Subject =~ /(your\s*life|health)\s+cover/i
-score       AK_INSURANCE_SUBJECT    4.0
-
-
-describe    AK_INSURANCE_FROM       Life insurance From
-header      AK_INSURANCE_FROM       From =~ /(your\s*life|health)\s+cover/i
-score       AK_INSURANCE_FROM       4.0
+describe    AK_FROM_INSURANCE_COVER_1       From header contains details about insurance coverage
+header      AK_FROM_INSURANCE_COVER_1       From =~ /^Your\s+(Mortgage|Life|Company|Health|Income|Will|Equity)\s+Cover(ed|age)?$/i
+score       AK_FROM_INSURANCE_COVER_1       4.0
 
 
 describe    AK_SPACE_START_FROM     From header contains a space at the start
