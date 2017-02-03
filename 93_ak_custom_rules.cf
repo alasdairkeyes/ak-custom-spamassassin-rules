@@ -85,7 +85,7 @@ score       AK_RAYHAY_FROM  5.0
 
 
 describe    AK_FROM_INSURANCE_COVER_1       From header contains details about insurance coverage
-header      AK_FROM_INSURANCE_COVER_1       From =~ /^Your\s+(Mortgage|Life|Company|Health|Income|Will|Equity)\s+Cover(ed|age)?$/i
+header      AK_FROM_INSURANCE_COVER_1       From =~ /Your\s+(Mortgage|Life|Company|Health|Income|Will|Equity)\s+Cover(ed|age)?/i
 score       AK_FROM_INSURANCE_COVER_1       4.0
 
 
