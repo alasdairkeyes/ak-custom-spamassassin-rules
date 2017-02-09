@@ -97,3 +97,7 @@ score       AK_SPACE_START_FROM     2.0
 describe    AK_PROFILE_LINK_1       Body contains link text to photos/profiles
 rawbody     AK_PROFILE_LINK_1       /(profile|photos)(\s+(is|are))?\s+here(\.|!)?<\/a>/i
 score       AK_PROFILE_LINK_1       2.0
+
+describe    AK_NEST_PENSIONS_FROM   From header contains fraud nestpensions domains
+header      AK_NEST_PENSIONS_FROM   From =~ /nestpensions\d+\.top/i
+score       AK_NEST_PENSIONS_FROM   5.0
