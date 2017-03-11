@@ -89,6 +89,11 @@ header      AK_FROM_INSURANCE_COVER_1       From =~ /Your\s+(Mortgage|Life|Compa
 score       AK_FROM_INSURANCE_COVER_1       4.0
 
 
+describe    AK_FROM_INSURANCE_COVER_2       From header contains details about P M I quotes
+header      AK_FROM_INSURANCE_COVER_2       From =~ /PMI Quotes/i
+score       AK_FROM_INSURANCE_COVER_2       3.0
+
+
 describe    AK_SPACE_START_FROM     From header contains a space at the start
 header      AK_SPACE_START_FROM     From =~ /^"?\s/
 score       AK_SPACE_START_FROM     2.0
