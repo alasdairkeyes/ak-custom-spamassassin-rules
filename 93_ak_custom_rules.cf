@@ -20,7 +20,7 @@ score       AK_GREETING_HEY     1.0
 
 
 describe    AK_ANON_RECIP   Email refers to recipient as friend, pal or similar
-body        AK_ANON_RECIP   /(Hi|Hey)\s+.*(Friend|Pal)$/i
+body        AK_ANON_RECIP   /(Hi|Hey|Dear)\s+.*(Friend|Pal|Subscriber),?$/i
 score       AK_ANON_RECIP   7.0
 
 
