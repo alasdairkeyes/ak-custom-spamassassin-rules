@@ -106,3 +106,12 @@ score       AK_PROFILE_LINK_1       2.0
 describe    AK_NEST_PENSIONS_FROM   From header contains fraud nestpensions domains
 header      AK_NEST_PENSIONS_FROM   From =~ /nestpensions\d+\.top/i
 score       AK_NEST_PENSIONS_FROM   5.0
+
+# These PGP checks are crude and make no validation, but for most scenarios, will work as intended
+describe    AK_GPG_ENCRYPTED        Contains PGP encrypted message MIME header
+mimeheader  AK_GPG_ENCRYPTED        Content-Description =~ /OpenPGP encrypted message/
+score       AK_GPG_ENCRYPTED        -2.0
+
+describe    AK_GPG_SIGNED           Contains PGP signature MIME header
+mimeheader  AK_GPG_SIGNED           Content-Description =~ /OpenPGP digital signature/
+score       AK_GPG_SIGNED           -2.0
