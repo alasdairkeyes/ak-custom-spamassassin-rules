@@ -115,3 +115,11 @@ score       AK_GPG_ENCRYPTED        -2.0
 describe    AK_GPG_SIGNED           Contains PGP signature MIME header
 mimeheader  AK_GPG_SIGNED           Content-Description =~ /OpenPGP digital signature/
 score       AK_GPG_SIGNED           -2.0
+
+describe    AK_INCOME_PROTECTION_FROM   From contains income protection
+header      AK_INCOME_PROTECTION_FROM   From =~ /income protection/i
+score       AK_INCOME_PROTECTION_FROM   2.0
+
+describe    AK_INCOME_PROTECTION_SUBJECT    Subject contains income protection
+header      AK_INCOME_PROTECTION_SUBJECT    Subject =~ /income protection/i
+score       AK_INCOME_PROTECTION_SUBJECT    2.0
