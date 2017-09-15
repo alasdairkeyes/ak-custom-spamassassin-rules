@@ -123,3 +123,11 @@ score       AK_INCOME_PROTECTION_FROM   2.0
 describe    AK_INCOME_PROTECTION_SUBJECT    Subject contains income protection
 header      AK_INCOME_PROTECTION_SUBJECT    Subject =~ /income protection/i
 score       AK_INCOME_PROTECTION_SUBJECT    2.0
+
+describe    AK_PERSONAL_ALARM_SUBJECT       Subject contains personal alarm
+header      AK_PERSONAL_ALARM_SUBJECT       Subject =~ /personal\s*alarm/i
+score       AK_PERSONAL_ALARM_SUBJECT       2.0
+
+describe    AK_PERSONAL_ALARM_FROM      From contains personal alarm
+header      AK_PERSONAL_ALARM_FROM      From =~ /personal\s*alarm/i
+score       AK_PERSONAL_ALARM_FROM      2.0
