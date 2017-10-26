@@ -89,8 +89,8 @@ header      AK_FROM_INSURANCE_COVER_1       From =~ /(Your\s*)?(\w+\s*)?(Mortgag
 score       AK_FROM_INSURANCE_COVER_1       4.0
 
 
-describe    AK_FROM_INSURANCE_COVER_2       From header contains details about P M I quotes
-header      AK_FROM_INSURANCE_COVER_2       From =~ /PMI Quotes/i
+describe    AK_FROM_INSURANCE_COVER_2       From header contains details about insurace quotes
+header      AK_FROM_INSURANCE_COVER_2       From =~ /(Health|Life|PMI) Quotes (UK)?/i
 score       AK_FROM_INSURANCE_COVER_2       3.0
 
 
