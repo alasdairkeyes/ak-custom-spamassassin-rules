@@ -94,6 +94,11 @@ header      AK_FROM_INSURANCE_COVER_2       From =~ /(Health|Life|PMI) Quotes (U
 score       AK_FROM_INSURANCE_COVER_2       3.0
 
 
+describe    AK_BODY_INSURANCE_COVER_1       Body contains details about insurance coverage
+rawbody     AK_BODY_INSURANCE_COVER_1       /Your(Mortgage|Keyman|Life|Company|Health|Income|Will|Equity)Covered/i
+score       AK_BODY_INSURANCE_COVER_1       3.0
+
+
 describe    AK_SPACE_START_FROM     From header contains a space at the start
 header      AK_SPACE_START_FROM     From =~ /^"?\s/
 score       AK_SPACE_START_FROM     2.0
