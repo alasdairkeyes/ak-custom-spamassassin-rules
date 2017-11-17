@@ -136,3 +136,16 @@ score       AK_PERSONAL_ALARM_SUBJECT       2.0
 describe    AK_PERSONAL_ALARM_FROM      From contains personal alarm
 header      AK_PERSONAL_ALARM_FROM      From =~ /personal\s*alarm/i
 score       AK_PERSONAL_ALARM_FROM      2.0
+
+
+describe    AK_CAP_GAINS_TAX_1          Body advertises reduction in capital gains tax
+rawbody     AK_CAP_GAINS_TAX_1          /no capital gains tax/i
+score       AK_CAP_GAINS_TAX_1          1.0
+
+describe    AK_CAP_GAINS_TAX_2          Body advertises deferral of capital gains tax
+rawbody     AK_CAP_GAINS_TAX_2          /(CGT|capital gains tax) deferral/i
+score       AK_CAP_GAINS_TAX_2          1.0
+
+describe    AK_INCOME_TAX_1             Body advertises no income tax on profits
+rawbody     AK_INCOME_TAX_1             /No Income Tax to pay on Profits/i
+score       AK_INCOME_TAX_1             1.0
