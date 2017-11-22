@@ -95,7 +95,7 @@ score       AK_FROM_INSURANCE_COVER_2       3.0
 
 
 describe    AK_BODY_INSURANCE_COVER_1       Body contains details about insurance coverage
-rawbody     AK_BODY_INSURANCE_COVER_1       /Your.{1,3}(Mortgage|Keyman|Life|Company|Health|Income|Will|Equity).{1,3}Covered/i
+rawbody     AK_BODY_INSURANCE_COVER_1       /Your.{0,3}(Mortgage|Keyman|Life|Company|Health|Income|Will|Equity).{0,3}Covered/i
 score       AK_BODY_INSURANCE_COVER_1       3.0
 
 
