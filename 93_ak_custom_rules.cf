@@ -149,3 +149,11 @@ score       AK_CAP_GAINS_TAX_2          1.0
 describe    AK_INCOME_TAX_1             Body advertises no income tax on profits
 rawbody     AK_INCOME_TAX_1             /No Income Tax to pay on Profits/i
 score       AK_INCOME_TAX_1             1.0
+
+describe    AK_PPI_1                    Body includes mis-sold PPI
+rawbody     AK_PPI_1                    /mis[\- ]*sold\s+PPI/i
+score       AK_PPI_1                    1.0
+
+describe    AK_PPI_2                    Body includes PPI claims
+rawbody     AK_PPI_2                    /PPI\s+claims/i
+score       AK_PPI_2                    1.0
