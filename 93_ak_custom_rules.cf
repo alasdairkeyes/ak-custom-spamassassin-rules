@@ -146,6 +146,10 @@ describe    AK_CAP_GAINS_TAX_2          Body advertises deferral of capital gain
 rawbody     AK_CAP_GAINS_TAX_2          /(CGT|capital gains tax) deferral/i
 score       AK_CAP_GAINS_TAX_2          1.0
 
+describe    AK_CAP_GAINS_TAX_3          Body advertises free from capital gains
+rawbody     AK_CAP_GAINS_TAX_3          /free from capital gains/i
+score       AK_CAP_GAINS_TAX_3          1.0
+
 describe    AK_INCOME_TAX_1             Body advertises no income tax on profits
 rawbody     AK_INCOME_TAX_1             /No Income Tax to pay on Profits/i
 score       AK_INCOME_TAX_1             1.0
