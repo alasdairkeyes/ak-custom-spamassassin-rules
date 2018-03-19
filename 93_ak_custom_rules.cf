@@ -15,7 +15,7 @@ score       AK_NO_GREETING_NAME     7.0
 
 
 describe    AK_GREETING_HEY     Greeting contains only Hey/Dear
-body        AK_GREETING_HEY     /^(Hey|Dear),?$/i
+body        AK_GREETING_HEY     /^(Hey|Dear)(,|.)?$/i
 score       AK_GREETING_HEY     1.0
 
 
