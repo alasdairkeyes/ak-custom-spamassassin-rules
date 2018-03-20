@@ -161,3 +161,7 @@ score       AK_PPI_1                    1.0
 describe    AK_PPI_2                    Body includes PPI claims
 rawbody     AK_PPI_2                    /PPI\s+claims/i
 score       AK_PPI_2                    1.0
+
+describe    AK_FILM_INVEST_FROM_1       From contains film invest
+header      AK_FILM_INVEST_FROM_1       From =~ /\bfilm\b.*(invest|profit)/i
+score       AK_FILM_INVEST_FROM_1       2.0
