@@ -26,7 +26,7 @@ score       AK_ANON_RECIP   7.0
 
 describe    AK_REMITTANCE_ADVICE    Subject talks about remittance advice
 header      AK_REMITTANCE_ADVICE    Subject =~ /remittance (advice|details)/i
-score       AK_REMITTANCE_ADVICE    8.0
+score       AK_REMITTANCE_ADVICE    1.0
 
 
 describe    AK_SPAM_JOB_SUBJECT     Subject talks of business or job cooperation
